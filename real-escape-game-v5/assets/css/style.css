@@ -123,6 +123,18 @@ button {
   margin: 0 auto;
 }
 
+.avator-ex {
+  text-align: center;
+}
+
+.white-image{
+  width: 690px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
 @media screen and (max-width: 1100px) {
   .container {
     width: calc(100% - 40px);
@@ -147,7 +159,7 @@ button {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #66FF00;
   margin-bottom: 20px;
   height: 100%;
 }
@@ -269,7 +281,7 @@ button {
   padding-right: 1rem;
 }
 
-.section-title {
+.section-title {font-family: 'Kosugi', sans-serif;
   font-size: 24px;
   line-height: 1.75;
   text-align: center;
